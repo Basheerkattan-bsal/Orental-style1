@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: 'Anton',
+        sans-serif;
+    font-size: 60px;
+
+}
+
+h2 {
+    color: #D89216;
+    font-family: 'Bad Script',
+        cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #D89216;
+    font-family: 'Bad Script',
+        cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+    color: whitesmoke;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+header {
+    margin: 0px 0px 70px 0px;
+}
+
+/*NAVIGATION*/
+
+.header-nav {
+
+    background-image: url(../img/family-restaurent.jpeg);
+    height: 50rem;
+    background-size: cover;
+    object-fit: cover;
+
+
+
+}
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.header-text div {
+    width: 50%;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 25px;
+    justify-content: right;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0px 15px 0px 0px;
+
+
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-right: 5px;
+    margin-left: 10px;
+
+}
+
+nav li a:hover,
+#current {
+    color: lightblue;
+
+
+}
+
+/*MAIN*/
+main {
+    margin: 0;
+}
+
+.top-container {
+    display: flex;
+    height: 50rem;
+    background-size: cover;
+    background-image: url(../img/header-new.jpeg);
+    margin: 0px 0px 50px 0px;
+    object-fit: cover;
+}
+
+.top-container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    background-color: transparent;
+
+}
+
+.top-container-text div {
+    width: 50%;
+    margin-top: 100px;
+
+}
+
+
+.middle-container {
+    margin: 0px 50px 0px 50px;
+    background-color: black;
+
+}
+
+.middle-container-header {
+    display: flex;
+    justify-content: center;
+    font-family: 'Imperial Script',
+        cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+
+
+.middle-container-header2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Imperial Script';
+    color: white;
+    font-weight: bold;
+}
+
+#middle-container-trigger {
+    margin: auto;
+    width: 30%;
+    border: 3px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    font-style: italic;
+    align-items: center;
+    background-color: transparent;
+}
+
+#middle-container-trigger:hover {
+    border-radius: 10px;
+    border-color: #D89216;
+    color: #D89216;
+
+}
+
+.topOf-middle-container {
+    display: flex;
+    background-color: #2C061F;
+
+    margin: 30px 0px 70px 0px;
+}
+
+.family-party {
+    display: flex;
+    justify-content: right;
+    object-fit: cover;
+
+}
+
+.family-party-text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    color: whitesmoke;
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+    vertical-align: baseline;
+
+
+
+}
+
+.family-party-text div {
+    width: 50%;
+
+}
+
+
+.family-party-text a {
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#family-trigger:hover {
+    border-color: black;
+    color: #D89216;
+    border-radius: 10px;
+}
+
+.middleOf-middle-container {
+    display: flex;
+    background-color: #2C061F;
+    margin: 70px 0px 70px 0px;
+}
+
+.holiday-party {
+    display: flex;
+    justify-content: right;
+    object-fit: cover;
+
+}
+
+.holiday-party-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+
+    color: whitesmoke;
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+    vertical-align: baseline;
+
+}
+
+.holiday-party-text div {
+    width: 50%;
+}
+
+.holiday-party-text a {
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#holiday-trriger:hover {
+    border-color: black;
+    color: #D89216;
+    border-radius: 10px;
+
+}
+
+.bottomOF-middle-container {
+    display: flex;
+    background-color: #2C061F;
+    margin: 30px 0px 70px 0px;
+}
+
+.unique-recipi {
+    display: flex;
+    justify-content: right;
+
+}
+
+.unique-recipi-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    color: whitesmoke;
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+    vertical-align: baseline;
+}
+
+.unique-recipi-text div {
+    width: 50%;
+}
+
+.unique-recipi-text a {
+    border: 1px solid whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+#unique-recipi:hover {
+    border-color: black;
+    color: #D89216;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.copy-right {
+    color: #D89216
+}
+
+.footer-style {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.footer-style p {
+    font-size: 15px;
+}
+
+.footer-style div {
+    width: 50%;
+}
+
+/* contact page */
+
+
+
+#contact-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+#contact-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 100px;
+}
+
+.main-container {
+    display: flex;
+    background-color: #2C061F;
+    border: 2px solid red;
+
+}
+
+
+
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    line-height: 1;
+    vertical-align: baseline;
+    margin: auto;
+
+
+
+}
+
+#contact-body hr {
+    border: 10px solid red;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.container-image {
+    display: flex;
+    justify-content: right;
+    object-fit: cover;
+    height: 500px;
+
+}

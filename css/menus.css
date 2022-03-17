@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FFF8F3;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Anton',
+        sans-serif;
+
+}
+
+h2 {
+    font-family: 'Bad Script',
+        cursive;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow',
+        cursive;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: 'PT Sans Narrow',
+        sans-serif;
+}
+
+hr {
+    border-bottom: none;
+    width: 4%;
+    border: dotted #1C6DD0 6px;
+    border-top: none;
+
+}
+
+
+/* HEADER */
+.header-nav {
+    background-image: url(../img/menue-images/cheese-sweet.jpeg);
+    height: 55rem;
+    background-size: cover;
+}
+
+.header-nav div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20em;
+
+}
+
+.header-nav h1 {
+    font-size: 60px;
+    font-weight: lighter;
+    color: #FFF8F3;
+
+}
+
+.header-nav p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF8F3;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+    gap: 25px;
+    justify-content: right;
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0px 15px 0px 0px;
+
+}
+
+nav ul li a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #A3E4DB;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding-right: 5px;
+
+}
+
+nav li a:hover,
+#current {
+    color: #1C6DD0;
+
+
+
+}
+
+/* MAIN */
+main {
+    margin: 0;
+
+}
+
+.section-top-image {
+    height: 300px;
+    width: 60%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.top-of-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5em;
+    margin-bottom: 20px;
+}
+
+.top-of-section p {
+    font-size: 20px;
+
+}
+
+
+.main-list {
+    display: flex;
+
+
+
+
+}
+
+.main-list hr {
+    width: 3.5em;
+    border-color: black;
+}
+
+.list-data {
+    display: flex;
+
+}
+
+.list-data ul {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-right: 25px;
+    vertical-align: baseline;
+
+
+}
+
+.list-data li {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    text-align: center;
+    width: 15%;
+    list-style-position: outside;
+    line-height: 1.5;
+    margin: 0px 50px;
+
+
+}
+
+.list-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.list-button:hover {
+    border-radius: 15px;
+    border-color: #1C6DD0;
+    background-color: #A3E4DB;
+
+}
+
+/* FOOTER */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: white;
+}
+
+.copy-right {
+    color: #D89216;
+    font-size: 15px;
+}
+
+.footer-style {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+
+}
+
+.footer-style p {
+    color: #A3E4DB;
+}
+
+.footer-style div {
+    width: 100%;
+    background-color: #1C6DD0;
+}
+
+/* lists test */
